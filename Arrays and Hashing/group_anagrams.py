@@ -19,6 +19,7 @@ class Solution:
             ans.append(val)
         return ans
 
+
 s = Solution()
 
-print(s.groupAnagrams(strs = ["eat","tea","tan","ate","nat","bat"]))
+print(s.groupAnagrams(strs=["eat", "tea", "tan", "ate", "nat", "bat"]))

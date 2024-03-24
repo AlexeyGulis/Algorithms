@@ -1,5 +1,4 @@
 import queue
-from typing import Optional, List
 
 
 class TreeNode:
@@ -7,29 +6,24 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-
-
 class Solution:
-    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
-        if root is None:
-            return []
-        answer = {}
+    def goodNodes(self, root: TreeNode) -> int:
         my_queue = queue.Queue()
-        i = 0
-        my_queue.put([i, root])
+        my_queue.put([root, root.val])
+        answer = 1
         while True:
             if my_queue.empty():
                 break
             temp = my_queue.get()
-            if temp[0] in answer:
-                answer[temp[0]].append(temp[1].val)
-            else:
-                answer[temp[0]] = [temp[1].val]
-            if temp[1].left is not None:
-                my_queue.put([temp[0] + 1, temp[1].left])
-            if temp[1].right is not None:
-                my_queue.put([temp[0] + 1, temp[1].right])
-        return list(answer.values())
+            if temp[0].left is not None:
+                if temp[0].left.val >= temp[1]:
+                    answer += 1
+                my_queue.put([temp[0].left, max(temp[1], temp[0].left.val)])
+            if temp[0].right is not None:
+                if temp[0].right.val >= temp[1]:
+                    answer += 1
+                my_queue.put([temp[0].right, max(temp[1], temp[0].right.val)])
+        return answer
 
     def getRoot(self, list):
         my_queue = queue.Queue()
@@ -65,5 +59,4 @@ class Solution:
 
 
 s = Solution()
-
-print(s.levelOrder(s.getRoot([5,3,6,2,4,None,None,1])))
+print(s.goodNodes(s.getRoot([1])))

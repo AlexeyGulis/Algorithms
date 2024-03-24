@@ -4,39 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3cceee-f344-4963-b30d-22dc82750cfb" name="Changes" comment="Stacks">
-      <change afterPath="$PROJECT_DIR$/Binary Search/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary Search/find_min_in_rotated_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary Search/koko_eat_bananas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary Search/search_2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary Search/search_in_rotated_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary Search/time_based_kvalues_store.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/add_two_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/copy_list_with_random_pointer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/find_the_duplicate_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/linked_list_cycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/lru_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/merge_two_sorted_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/remove_nth_node_from_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/reorder_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lindked List/reverse_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding Window/best_time_to_sell_stock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding Window/longest_repeat_char_replace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding Window/longest_substring_without_rep.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sliding Window/permutation_in_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/car_fleet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Stacks/daily_temperatures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/balanced_bintree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/bt_level_order_traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/bt_right_side_view.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/diameter_of_bintree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/invert_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/lca_of_bst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/max_depth_bintree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/same_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/subtree_of_another_tree.py" afterDir="false" />
+    <list default="true" id="ae3cceee-f344-4963-b30d-22dc82750cfb" name="Changes" comment="Algo">
+      <change afterPath="$PROJECT_DIR$/Backtracking/combination_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/combination_sum_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/permutations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/subsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/built_bt_from_preorder_inorder_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/count_good_nodes_in_bt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/input/list_to_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/kth_smallest_in_bst.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trees/validate_bst.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/generate_parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stacks/generate_parentheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/balanced_bintree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/balanced_bintree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/bt_level_order_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/bt_level_order_traversal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +34,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AlexeyGulis&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="db1d8810-f769-4b79-82c2-8344f6cde714" />
+        <option name="url" value="https://github.com/AlexeyGulis/Algorithms.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -63,67 +57,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.Anagram.executor": "Run",
-    "Python.add_two_numbers.executor": "Run",
-    "Python.balanced_bintree.executor": "Run",
-    "Python.best_time_to_sell_stock.executor": "Run",
-    "Python.binary_search.executor": "Run",
-    "Python.bt_level_order_traversal.executor": "Run",
-    "Python.bt_right_side_view.executor": "Run",
-    "Python.car_fleet.executor": "Run",
-    "Python.container_with_most_water.executor": "Run",
-    "Python.copy_list_with_random_pointer.executor": "Run",
-    "Python.daily_temperatures.executor": "Run",
-    "Python.diameter_of_bintree.executor": "Run",
-    "Python.duplicates.executor": "Run",
-    "Python.encode_decode_str.executor": "Run",
-    "Python.evaluate_reverse_polish_notation.executor": "Run",
-    "Python.find_min_in_rotated_array.executor": "Run",
-    "Python.find_the_duplicate_number.executor": "Run",
-    "Python.generate_parentheses.executor": "Run",
-    "Python.group_anagrams.executor": "Run",
-    "Python.koko_eat_bananas.executor": "Run",
-    "Python.lca_of_bst.executor": "Run",
-    "Python.linked_list_cycle.executor": "Run",
-    "Python.longest_cons_sequence.executor": "Run",
-    "Python.longest_repeat_char_replace.executor": "Run",
-    "Python.longest_substring_without_rep.executor": "Run",
-    "Python.lru_cache.executor": "Run",
-    "Python.merge_two_sorted_list.executor": "Debug",
-    "Python.min_stack.executor": "Run",
-    "Python.permutation_in_str.executor": "Run",
-    "Python.product_of_array_except_self.executor": "Run",
-    "Python.remove_nth_node_from_end.executor": "Run",
-    "Python.reorder_list.executor": "Debug",
-    "Python.reverse_linked_list.executor": "Debug",
-    "Python.same_tree.executor": "Run",
-    "Python.search_2d.executor": "Run",
-    "Python.search_in_rotated_array.executor": "Run",
-    "Python.subtree_of_another_tree.executor": "Run",
-    "Python.three_sum.executor": "Run",
-    "Python.time_based_kvalues_store.executor": "Run",
-    "Python.top_k_freq.executor": "Run",
-    "Python.two_sum.executor": "Run",
-    "Python.two_sum_2.executor": "Run",
-    "Python.valid_palindrome.executor": "Run",
-    "Python.valid_parentheses.executor": "Run",
-    "Python.valid_sudoku.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.Anagram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_two_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.balanced_bintree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.best_time_to_sell_stock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binary_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bt_level_order_traversal.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.bt_right_side_view.executor&quot;: &quot;Run&quot;,
+    &quot;Python.built_bt_from_preorder_inorder_lists.executor&quot;: &quot;Run&quot;,
+    &quot;Python.car_fleet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.combination_sum.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.combination_sum_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.container_with_most_water.executor&quot;: &quot;Run&quot;,
+    &quot;Python.copy_list_with_random_pointer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.count_good_nodes_in_bt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.daily_temperatures.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diameter_of_bintree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.duplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encode_decode_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python.evaluate_reverse_polish_notation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_min_in_rotated_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.find_the_duplicate_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_parentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.group_anagrams.executor&quot;: &quot;Run&quot;,
+    &quot;Python.koko_eat_bananas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kth_smallest_in_bst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lca_of_bst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.linked_list_cycle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.longest_cons_sequence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.longest_repeat_char_replace.executor&quot;: &quot;Run&quot;,
+    &quot;Python.longest_substring_without_rep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lru_cache.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_two_sorted_list.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.min_stack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.permutation_in_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python.permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product_of_array_except_self.executor&quot;: &quot;Run&quot;,
+    &quot;Python.remove_nth_node_from_end.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reorder_list.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.reverse_linked_list.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.same_tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.search_2d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.search_in_rotated_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.subsets.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.subtree_of_another_tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.three_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.time_based_kvalues_store.executor&quot;: &quot;Run&quot;,
+    &quot;Python.top_k_freq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.two_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.two_sum_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.valid_palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Python.valid_parentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.valid_sudoku.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validate_bst.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Downloads\Pycharm-Projects\Algorithms\Arrays and Hashing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bt_right_side_view">
-    <configuration name="bt_level_order_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.combination_sum_2">
+    <configuration name="built_bt_from_preorder_inorder_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +138,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/bt_level_order_traversal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/built_bt_from_preorder_inorder_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bt_right_side_view" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="combination_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +156,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/bt_right_side_view.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/combination_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lca_of_bst" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="combination_sum_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,11 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/lca_of_bst.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/combination_sum_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +191,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="same_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="permutations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/same_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/permutations.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subtree_of_another_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="subsets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,11 +222,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/subtree_of_another_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/subsets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bt_right_side_view" />
-        <item itemvalue="Python.bt_level_order_traversal" />
-        <item itemvalue="Python.lca_of_bst" />
-        <item itemvalue="Python.subtree_of_another_tree" />
-        <item itemvalue="Python.same_tree" />
+        <item itemvalue="Python.combination_sum_2" />
+        <item itemvalue="Python.permutations" />
+        <item itemvalue="Python.combination_sum" />
+        <item itemvalue="Python.subsets" />
+        <item itemvalue="Python.built_bt_from_preorder_inorder_lists" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709566422798</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Algo">
+      <option name="closed" value="true" />
+      <created>1710783484533</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783484533</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,7 +337,8 @@
     <MESSAGE value="Two Pointers" />
     <MESSAGE value="Arrays and Hashing" />
     <MESSAGE value="Stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stacks" />
+    <MESSAGE value="Algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -374,5 +385,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="root" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3cceee-f344-4963-b30d-22dc82750cfb" name="Changes" comment="Algo">
-      <change afterPath="$PROJECT_DIR$/Backtracking/combination_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/combination_sum_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/permutations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backtracking/subsets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/built_bt_from_preorder_inorder_lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/count_good_nodes_in_bt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/input/list_to_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/kth_smallest_in_bst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trees/validate_bst.py" afterDir="false" />
+    <list default="true" id="ae3cceee-f344-4963-b30d-22dc82750cfb" name="Changes" comment="Backtracking">
+      <change afterPath="$PROJECT_DIR$/Backtracking/letter_combination_phone_digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backtracking/palindrome_partitioning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/balanced_bintree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/balanced_bintree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/bt_level_order_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/bt_level_order_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backtracking/word_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backtracking/word_search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +78,7 @@
     &quot;Python.koko_eat_bananas.executor&quot;: &quot;Run&quot;,
     &quot;Python.kth_smallest_in_bst.executor&quot;: &quot;Run&quot;,
     &quot;Python.lca_of_bst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.letter_combination_phone_digits.executor&quot;: &quot;Run&quot;,
     &quot;Python.linked_list_cycle.executor&quot;: &quot;Run&quot;,
     &quot;Python.longest_cons_sequence.executor&quot;: &quot;Run&quot;,
     &quot;Python.longest_repeat_char_replace.executor&quot;: &quot;Run&quot;,
@@ -93,6 +86,7 @@
     &quot;Python.lru_cache.executor&quot;: &quot;Run&quot;,
     &quot;Python.merge_two_sorted_list.executor&quot;: &quot;Debug&quot;,
     &quot;Python.min_stack.executor&quot;: &quot;Run&quot;,
+    &quot;Python.palindrome_partitioning.executor&quot;: &quot;Run&quot;,
     &quot;Python.permutation_in_str.executor&quot;: &quot;Run&quot;,
     &quot;Python.permutations.executor&quot;: &quot;Run&quot;,
     &quot;Python.product_of_array_except_self.executor&quot;: &quot;Run&quot;,
@@ -113,6 +107,7 @@
     &quot;Python.valid_parentheses.executor&quot;: &quot;Run&quot;,
     &quot;Python.valid_sudoku.executor&quot;: &quot;Run&quot;,
     &quot;Python.validate_bst.executor&quot;: &quot;Run&quot;,
+    &quot;Python.word_search.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -124,51 +119,7 @@
       <recent name="E:\Downloads\Pycharm-Projects\Algorithms\Arrays and Hashing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.combination_sum_2">
-    <configuration name="built_bt_from_preorder_inorder_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/built_bt_from_preorder_inorder_lists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="combination_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Algorithms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/combination_sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.letter_combination_phone_digits">
     <configuration name="combination_sum_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
@@ -183,6 +134,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/combination_sum_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="letter_combination_phone_digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/letter_combination_phone_digits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="palindrome_partitioning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/palindrome_partitioning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -213,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subsets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="word_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,7 +221,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/subsets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Backtracking/word_search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.letter_combination_phone_digits" />
+        <item itemvalue="Python.palindrome_partitioning" />
+        <item itemvalue="Python.word_search" />
         <item itemvalue="Python.combination_sum_2" />
         <item itemvalue="Python.permutations" />
-        <item itemvalue="Python.combination_sum" />
-        <item itemvalue="Python.subsets" />
-        <item itemvalue="Python.built_bt_from_preorder_inorder_lists" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +312,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710783484533</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tree + Backtracking">
+      <option name="closed" value="true" />
+      <created>1711291873188</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711291873188</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Backtracking">
+      <option name="closed" value="true" />
+      <created>1711295276335</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711295276335</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +349,9 @@
     <MESSAGE value="Arrays and Hashing" />
     <MESSAGE value="Stacks" />
     <MESSAGE value="Algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algo" />
+    <MESSAGE value="Tree + Backtracking" />
+    <MESSAGE value="Backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

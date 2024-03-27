@@ -30,40 +30,66 @@ class Solution:
                 if self.answer:
                     break
                 if board[i][j] == word[0]:
-                    temp = board[i][j]
-                    board[i][j] = ''
-                    self.rec_help(board, word, i, j, 1, word[0])
-                    board[i][j] = temp
+                    my_dict = {}
+                    my_dict[i] = [j]
+                    self.rec_help(board, word, i, j, 1, word[0], my_dict)
         return self.answer
 
-    def rec_help(self, board, word, i, j, k, my_word):
+    def rec_help(self, board, word, i, j, k, my_word, my_dict):
         if my_word == word:
             self.answer = True
             return
         if self.answer:
             return
         if j + 1 < len(board[i]) and board[i][j + 1] == word[k]:
-            new_board = copy.deepcopy(board)
-            new_board[i][j + 1] = ''
-            temp = my_word + word[k]
-            self.rec_help(new_board, word, i, j + 1, k + 1, temp)
+            if i in my_dict:
+                if j + 1 not in my_dict[i]:
+                    temp_dict = copy.deepcopy(my_dict)
+                    temp_dict[i].append(j + 1)
+                    temp = my_word + word[k]
+                    self.rec_help(board, word, i, j + 1, k + 1, temp, temp_dict)
+            else:
+                temp_dict = copy.deepcopy(my_dict)
+                temp_dict[i] = [j + 1]
+                temp = my_word + word[k]
+                self.rec_help(board, word, i, j + 1, k + 1, temp, temp_dict)
         if j - 1 >= 0 and board[i][j - 1] == word[k]:
-            new_board = copy.deepcopy(board)
-            new_board[i][j - 1] = ''
-            temp = my_word + word[k]
-            self.rec_help(new_board, word, i, j - 1, k + 1, temp)
+            if i in my_dict:
+                if j - 1 not in my_dict[i]:
+                    temp_dict = copy.deepcopy(my_dict)
+                    temp_dict[i].append(j - 1)
+                    temp = my_word + word[k]
+                    self.rec_help(board, word, i, j - 1, k + 1, temp, temp_dict)
+            else:
+                temp_dict = copy.deepcopy(my_dict)
+                temp_dict[i] = [j - 1]
+                temp = my_word + word[k]
+                self.rec_help(board, word, i, j - 1, k + 1, temp, temp_dict)
         if i + 1 < len(board) and board[i + 1][j] == word[k]:
-            new_board = copy.deepcopy(board)
-            new_board[i + 1][j] = ''
-            temp = my_word + word[k]
-            self.rec_help(new_board, word, i + 1, j, k + 1, temp)
+            if i + 1 in my_dict:
+                if j not in my_dict[i + 1]:
+                    temp_dict = copy.deepcopy(my_dict)
+                    temp_dict[i + 1].append(j)
+                    temp = my_word + word[k]
+                    self.rec_help(board, word, i + 1, j, k + 1, temp, temp_dict)
+            else:
+                temp_dict = copy.deepcopy(my_dict)
+                temp_dict[i + 1] = [j]
+                temp = my_word + word[k]
+                self.rec_help(board, word, i + 1, j, k + 1, temp, temp_dict)
         if i - 1 >= 0 and board[i - 1][j] == word[k]:
-            new_board = copy.deepcopy(board)
-            new_board[i - 1][j] = ''
-            temp = my_word + word[k]
-            self.rec_help(new_board, word, i - 1, j, k + 1, temp)
+            if i - 1 in my_dict:
+                if j not in my_dict[i - 1]:
+                    temp_dict = copy.deepcopy(my_dict)
+                    temp_dict[i - 1].append(j)
+                    temp = my_word + word[k]
+                    self.rec_help(board, word, i - 1, j, k + 1, temp, temp_dict)
+            else:
+                temp_dict = copy.deepcopy(my_dict)
+                temp_dict[i - 1] = [j]
+                temp = my_word + word[k]
+                self.rec_help(board, word, i - 1, j, k + 1, temp, temp_dict)
 
 
 s = Solution()
-print(s.exist([["A"],["A"],["A"],["A"],["A"],["A"]], word =
-"AAAAAAAAAAAAAAB"))
+print(s.exist([["A","B","C"],["H","G","D"],["I","F","E"]], "ABCDEFGHI"))

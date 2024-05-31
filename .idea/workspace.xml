@@ -4,63 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3cceee-f344-4963-b30d-22dc82750cfb" name="Changes" comment="Backtracking">
-      <change afterPath="$PROJECT_DIR$/1-D DP/climbing_stairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/coin_change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/decode_ways.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/house_robber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/house_robber_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/longest_increasing_subseq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/longest_palidrom_substr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/max_product_subarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/min_cost_climbing_stairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/palindromic_substr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/partition_equal_subset_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1-D DP/word_break.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Graphs/cheapest_flight_within_k_stops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Graphs/min_cost_to_connect_all_points.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Advanced Graphs/network_delay_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/counting_bits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/missing_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/number_of_one_bits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/reverse_bits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/reverse_integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/single_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bit Manipulation/sum_of_two_int.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/clone_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/count_connected_components.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/course_schedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/course_shedule_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/islands_and_treasure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/max_area_of_island.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/number_of_islands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/pacific_atlantic_water_flow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/redundant_connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/rotting_oranges.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/surrounded_regions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphs/valid_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/gas_station.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/hand_of_straights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/jump_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/jump_game_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/maximum_subarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/merge_triplets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/partition_labels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Greedy/valid_parenthesis_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap, Priority Queue/design_twitter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap, Priority Queue/k_closest_points_to_origin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap, Priority Queue/kth_largest_elem_in_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap, Priority Queue/kth_largest_elem_in_steam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap, Priority Queue/last_stone_weight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heap, Priority Queue/task_scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intervals/insert_interval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intervals/meeting_schedule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intervals/meeting_schedule_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intervals/merge_intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intervals/nonoverlapping_intervals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trie/design_add_and_search_words_ds.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trie/implement_trie.py" afterDir="false" />
+    <list default="true" id="ae3cceee-f344-4963-b30d-22dc82750cfb" name="Changes" comment="algo">
+      <change afterPath="$PROJECT_DIR$/2-D DP/best_time_to_buy_and_sell_stock_with_cooldown.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-D DP/coin_change_II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-D DP/edit_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-D DP/interleaving_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-D DP/longest_common_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-D DP/target_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2-D DP/unique_paths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math &amp; Geometry/happy_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math &amp; Geometry/plus_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math &amp; Geometry/rotate_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math &amp; Geometry/set_matrix_zeroes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Math &amp; Geometry/spiral_matrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Greedy/valid_parenthesis_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/Greedy/valid_parenthesis_str.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +65,7 @@
     "Python.Anagram.executor": "Run",
     "Python.add_two_numbers.executor": "Run",
     "Python.balanced_bintree.executor": "Run",
+    "Python.best_time_to_buy_and_sell_stock_with_cooldown.executor": "Debug",
     "Python.best_time_to_sell_stock.executor": "Run",
     "Python.binary_search.executor": "Run",
     "Python.bt_level_order_traversal.executor": "Debug",
@@ -117,6 +76,7 @@
     "Python.climbing_stairs.executor": "Run",
     "Python.clone_graph.executor": "Debug",
     "Python.coin_change.executor": "Run",
+    "Python.coin_change_II.executor": "Run",
     "Python.combination_sum.executor": "Debug",
     "Python.combination_sum_2.executor": "Run",
     "Python.container_with_most_water.executor": "Run",
@@ -139,10 +99,12 @@
     "Python.generate_parentheses.executor": "Run",
     "Python.group_anagrams.executor": "Run",
     "Python.hand_of_straights.executor": "Run",
+    "Python.happy_number.executor": "Run",
     "Python.house_robber.executor": "Run",
     "Python.house_robber_II.executor": "Run",
     "Python.implement_trie.executor": "Run",
     "Python.insert_interval.executor": "Run",
+    "Python.interleaving_string.executor": "Run",
     "Python.islands_and_treasure.executor": "Run",
     "Python.jump_game.executor": "Run",
     "Python.jump_game_II.executor": "Run",
@@ -155,6 +117,7 @@
     "Python.lca_of_bst.executor": "Run",
     "Python.letter_combination_phone_digits.executor": "Run",
     "Python.linked_list_cycle.executor": "Run",
+    "Python.longest_common_subsequence.executor": "Debug",
     "Python.longest_cons_sequence.executor": "Run",
     "Python.longest_increasing_subseq.executor": "Run",
     "Python.longest_palidrom_substr.executor": "Run",
@@ -183,6 +146,7 @@
     "Python.partition_labels.executor": "Run",
     "Python.permutation_in_str.executor": "Run",
     "Python.permutations.executor": "Run",
+    "Python.plus_one.executor": "Run",
     "Python.product_of_array_except_self.executor": "Run",
     "Python.redundant_connection.executor": "Run",
     "Python.remove_nth_node_from_end.executor": "Run",
@@ -190,21 +154,26 @@
     "Python.reverse_bits.executor": "Run",
     "Python.reverse_integer.executor": "Run",
     "Python.reverse_linked_list.executor": "Debug",
+    "Python.rotate_image.executor": "Run",
     "Python.rotting_oranges.executor": "Run",
     "Python.same_tree.executor": "Run",
     "Python.search_2d.executor": "Run",
     "Python.search_in_rotated_array.executor": "Run",
+    "Python.set_matrix_zeroes.executor": "Run",
     "Python.single_number.executor": "Run",
+    "Python.spiral_matrix.executor": "Run",
     "Python.subsets.executor": "Debug",
     "Python.subtree_of_another_tree.executor": "Run",
     "Python.sum_of_two_int.executor": "Run",
     "Python.surrounded_regions.executor": "Run",
+    "Python.target_sum.executor": "Run",
     "Python.task_scheduler.executor": "Run",
     "Python.three_sum.executor": "Run",
     "Python.time_based_kvalues_store.executor": "Run",
     "Python.top_k_freq.executor": "Run",
     "Python.two_sum.executor": "Run",
     "Python.two_sum_2.executor": "Run",
+    "Python.unique_paths.executor": "Run",
     "Python.valid_palindrome.executor": "Run",
     "Python.valid_parentheses.executor": "Run",
     "Python.valid_parenthesis_str.executor": "Debug",
@@ -224,8 +193,8 @@
       <recent name="E:\Downloads\Pycharm-Projects\Algorithms\Arrays and Hashing" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reverse_integer">
-    <configuration name="counting_bits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.plus_one">
+    <configuration name="happy_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,11 +203,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bit Manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math &amp; Geometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bit Manipulation/counting_bits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math &amp; Geometry/happy_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="missing_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="plus_one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,11 +225,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bit Manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math &amp; Geometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bit Manipulation/missing_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math &amp; Geometry/plus_one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse_bits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rotate_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,11 +247,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bit Manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math &amp; Geometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bit Manipulation/reverse_bits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math &amp; Geometry/rotate_image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +260,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reverse_integer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="set_matrix_zeroes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bit Manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math &amp; Geometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bit Manipulation/reverse_integer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math &amp; Geometry/set_matrix_zeroes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sum_of_two_int" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="spiral_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,11 +291,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bit Manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Math &amp; Geometry" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bit Manipulation/sum_of_two_int.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Math &amp; Geometry/spiral_matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reverse_integer" />
-        <item itemvalue="Python.sum_of_two_int" />
-        <item itemvalue="Python.missing_number" />
-        <item itemvalue="Python.reverse_bits" />
-        <item itemvalue="Python.counting_bits" />
+        <item itemvalue="Python.plus_one" />
+        <item itemvalue="Python.happy_number" />
+        <item itemvalue="Python.set_matrix_zeroes" />
+        <item itemvalue="Python.spiral_matrix" />
+        <item itemvalue="Python.rotate_image" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711547727626</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="algo">
+      <option name="closed" value="true" />
+      <created>1715522335110</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715522335111</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +441,8 @@
     <MESSAGE value="Algo" />
     <MESSAGE value="Tree + Backtracking" />
     <MESSAGE value="Backtracking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backtracking" />
+    <MESSAGE value="algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -598,6 +576,16 @@
           <url>file://$PROJECT_DIR$/Bit Manipulation/reverse_integer.py</url>
           <line>9</line>
           <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/2-D DP/best_time_to_buy_and_sell_stock_with_cooldown.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Math &amp; Geometry/spiral_matrix.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
